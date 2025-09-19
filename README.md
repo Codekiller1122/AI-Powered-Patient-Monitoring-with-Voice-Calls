@@ -1,5 +1,19 @@
 # Remote Patient Monitoring with Voice Check-ins 📞🏥
 
+Full-stack Django + React + Twilio project.
+
+## Features
+- Automated voice check-ins
+- Twilio integration
+- React dashboard
+- Celery scheduled tasks
+
+## Quick Start
+```bash
+docker-compose up --build
+
+# Remote Patient Monitoring with Voice Check-ins 📞🏥
+
 A full-stack Django + React + Twilio app for **remote patient monitoring**.  
 Patients receive **automated voice calls** asking about their health and respond with keypad or speech.  
 Responses are saved in the backend and visible to doctors via a dashboard.
@@ -35,3 +49,5 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
+
+```
